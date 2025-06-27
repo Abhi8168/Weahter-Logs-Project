@@ -21,7 +21,7 @@ A simple NestJS service that fetches real-time weather data for multiple cities 
 ```bash
 # Clone the repository
 git clone https://github.com/UserName/Weahter-Logs-Project.git.git
-cd nestjs-weather-Logs
+cd Weather-Logs-Project
 
 # Install dependencies
 npm install
