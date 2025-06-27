@@ -1,0 +1,102 @@
+2025-06-27T09:07:11.451Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:07:20.890Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:07:30.979Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:07:40.985Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:07:50.929Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:08:01.095Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:08:10.911Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:08:20.968Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:08:30.974Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:08:40.973Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:08:51.052Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:09:01.084Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:09:10.916Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:09:20.988Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:09:31.041Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:09:51.029Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+
+2025-06-27T09:10:00.966Z Weather in London
+- Temperature: 13
+- Weather: Light rain
+- Humidity: 88
+- Wind Speed: 12
+

@@ -33,12 +33,10 @@ export class WeatherService {
       };
 
       await this.createTextLog(report);
-      await this.createJsonLog(report);
 
-      // Optional console output for visibility
       console.log('Weather JSON:', JSON.stringify(report, null, 2));
     } catch (err) {
-      console.error('Weather API Error:', err);
+      console.error('Weather API Error:', err.message);
       throw new InternalServerErrorException({
         success: false,
         message: 'Something went wrong while fetching the weather data',
@@ -50,8 +48,18 @@ export class WeatherService {
     if (!fs.existsSync(this.textPath)) {
       fs.writeFileSync(this.textPath, '', 'utf-8');
     }
-    if (!fs.existsSync(this.jsonPath)) {
-      fs.writeFileSync(this.jsonPath, '[]', 'utf-8'); // initialize with empty array
+
+    try {
+      if (!fs.existsSync(this.jsonPath)) {
+        fs.writeFileSync(this.jsonPath, '[]', 'utf-8');
+      } else {
+        const raw = fs.readFileSync(this.jsonPath, 'utf-8');
+        const parsed = JSON.parse(raw);
+        if (!Array.isArray(parsed)) throw new Error('Invalid format');
+      }
+    } catch {
+      fs.writeFileSync(this.jsonPath, '[]', 'utf-8');
+      console.warn('weather-log.json was corrupted and has been reset.');
     }
   }
 
@@ -64,15 +72,5 @@ export class WeatherService {
       `- Wind Speed: ${report.windSpeed}\n\n`;
 
     fs.appendFileSync(this.textPath, log, 'utf-8');
-  }
-
-  private async createJsonLog(report) {
-    const existingData = JSON.parse(fs.readFileSync(this.jsonPath, 'utf-8'));
-    existingData.push(report);
-    fs.writeFileSync(
-      this.jsonPath,
-      JSON.stringify(existingData, null, 2),
-      'utf-8',
-    );
   }
 }

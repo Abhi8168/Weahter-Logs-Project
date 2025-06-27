@@ -3,7 +3,6 @@
 A simple NestJS service that fetches real-time weather data for multiple cities every 10 seconds using the [wttr.in](https://wttr.in) API and logs the data into:
 
 - `weather-log.txt`: Human-readable text log
-- `weather-log.json`: Structured JSON log
 
 ---
 
